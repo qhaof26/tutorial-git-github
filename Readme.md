@@ -1,5 +1,5 @@
 # Hướng dẫn sử dụng Git, GitHub !
-**Người thực hiện**: [Facebook](https://facebook.com) 
+**Người thực hiện**: [Facebook](https://www.facebook.com/gqhaof) 
 [Github](https://github.com/qhaof26)
 
 **Nguồn tham khảo Git, GitHub**: [Youtube](https://www.youtube.com/watch?v=-VmX40r5ARI&t=209s)
