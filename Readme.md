@@ -43,7 +43,8 @@
 
 8. `git pull = git fetch + git merge`
 - Example: **`git pull origin master`**
-- **`git fetch`**: Lấy tất cả các thay đổi từ kho lưu trữ từ xa (remote) mà chưa có trong kho lưu trữ cục bộ (local). Điều này bao gồm các commit mới, các nhánh mới, và các thay đổi khác.
+- **Lưu ý**: các branch khác phải merge code vào master ở trên **remote** thì mới dùng `git pull origin master` để cập nhật lại code mới nhất từ trên **remote**.
+- **`git fetch`**: Lấy tất cả các thay đổi từ kho lưu trữ từ xa (**`remote`**) mà chưa có trong kho lưu trữ cục bộ (local). Điều này bao gồm các commit mới, các nhánh mới, và các thay đổi khác.
 - **`git merge`**: Sau khi `fetch`, `git pull` sẽ tự động gộp (merge) những thay đổi mới từ kho lưu trữ từ xa vào nhánh hiện tại mà bạn đang làm việc. Nếu có xung đột (conflict) trong quá trình gộp, bạn sẽ cần phải giải quyết xung đột đó trước khi hoàn thành việc gộp.
 
 9. `git rebase` (Teamwork thực tế)
