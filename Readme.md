@@ -84,3 +84,4 @@
     
     `Git Ignore`: khi không muốn cho github theo dõi 1 file nào đó trong dự án.
        → Tạo file .gitignore → viết tên file vào trong .gitignore
+update git
